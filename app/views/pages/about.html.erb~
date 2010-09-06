@@ -2,9 +2,10 @@
 <html>
   <head>
     <title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
-    <%= csrf_meta_tag %>
   </head>
+
   <body>
-    <%= yield %>
+    <h1>Sample App</h1>
+    <p>This is the ABOUT page for my sample application</p>
   </body>
 </html>
